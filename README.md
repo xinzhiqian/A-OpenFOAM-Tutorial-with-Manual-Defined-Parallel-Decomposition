@@ -1,6 +1,6 @@
 # A OpenFOAM Tutorial with Self Defining Parallel Decomposition
 
-*Cavity_SelfDecomposePar* is based on *cavity*, a tutorial of OpenFOAM whose file path is $FOAM_TUTORIALS/incompressible/icoFoam cavity/cavity.
+*Cavity_SelfDecomposePar* is based on *cavity*, a tutorial of OpenFOAM whose file path is $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity.
 
 This tutorial shows how to get a self-defining parallel decomposition with *decomposeParDict* and *setFieldsDict* for better load balancing.
 
