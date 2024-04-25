@@ -1,0 +1,21 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # Tutorial run functions
+#------------------------------------------------------------------------------
+LOG_FILE="log.AllSelfDecomposePar"
+
+mv system/decomposeParDict_simple system/decomposeParDict
+decomposePar -force -cellDist >> $LOG_FILE 2>&1
+
+setFields >> $LOG_FILE 2>&1
+
+SelfDecomposePar >> $LOG_FILE 2>&1
+
+mv system/decomposeParDict system/decomposeParDict_simple
+mv system/decomposeParDict_manual system/decomposeParDict
+decomposePar -force >> $LOG_FILE 2>&1
+
+mv system/decomposeParDict system/decomposeParDict_manual
+
+echo "SelfDecomposePar completed." >> $LOG_FILE
+#------------------------------------------------------------------------------
