@@ -12,6 +12,10 @@ This tutorial shows how to get a self-defining parallel decomposition with *deco
 4. Parallel solving.
 5. `./Allclean` to remove unnecessary files and folders
 
+## Comparison of decompositions
+![Simple Decomposition](Simple_Decomposition.jpeg "simple")
+![Manual Decomposition](Manual_Decomposition.jpeg "manual")
+
 It would be appreciated to contact me (xinzq@zju.edu.cn) if you find any unreasonably written code or problem about the tutorial.
 
 ## Reference
