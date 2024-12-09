@@ -13,7 +13,9 @@ This tutorial shows how to get a self-defining parallel decomposition with *deco
 5. `./Allclean` to remove unnecessary files and folders
 
 ## Comparison of decompositions
+- Simple Decomposition
 ![Simple Decomposition](Simple_Decomposition.jpeg "simple")
+- Manual Decomposition
 ![Manual Decomposition](Manual_Decomposition.jpeg "manual")
 
 It would be appreciated to contact me (xinzq@zju.edu.cn) if you find any unreasonably written code or problem about the tutorial.
@@ -21,5 +23,3 @@ It would be appreciated to contact me (xinzq@zju.edu.cn) if you find any unreaso
 ## Reference
 1. https://blog.csdn.net/CloudBird07/article/details/105349031 
 2. https://www.openfoam.com/documentation/guides/latest/man/setFields.html
-
-
