@@ -1,4 +1,4 @@
-# A OpenFOAM Tutorial with Self Defining Parallel Decomposition
+# A OpenFOAM Tutorial with Manual Defined Parallel Decomposition
 
 *Cavity_SelfDecomposePar* is based on *cavity*, a tutorial of OpenFOAM whose file path is $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity.
 
